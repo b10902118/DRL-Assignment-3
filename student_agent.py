@@ -55,7 +55,7 @@ class model(nn.Module):
 
 
 q = model(4, 12, False, device)
-q.load_state_dict(torch.load("3954.pth", weights_only=True))
+q.load_state_dict(torch.load("3954.pth"))
 q.to(device)
 
 
